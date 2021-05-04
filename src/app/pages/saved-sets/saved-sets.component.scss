@@ -1,0 +1,64 @@
+.button{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.back-btn{
+    background-color:rgb(79, 180, 118);
+    color: white;
+    width: 100px;
+    height: 40px;
+   
+    margin-top: 20px;
+
+}
+
+.no-saved-items{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.saved-sets-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title{
+    text-decoration: underline;
+}
+
+img{
+    width: 250px;
+    height: 180px;
+}
+.remove-all-btn{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    margin-right: 15px;
+}
+
+.remove-btn{
+    color: white;
+    background-color: black;
+}
+
+.saved-items{
+    margin-top: 20px;
+    border-bottom:   1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 540px) {
+    img{
+        width: 150px;
+        height: 130px;
+    }
+    h2{
+        font-size: large;
+    }
+}

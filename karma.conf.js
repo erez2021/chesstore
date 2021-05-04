@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/chesstore'),
+      dir: require('path').join(__dirname, './coverage/chess-store'),
       subdir: '.',
       reporters: [
         { type: 'html' },
